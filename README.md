@@ -73,6 +73,7 @@ Three.js 初始打包体积仍较大，当前构建会提示 chunk 超过 500 kB
 ├─ scripts/               # 预留：资产转换与内容校验
 ├─ docs/
 │  ├─ TECHNICAL_PLAN.md   # 技术方案与项目管理规范
+│  ├─ TEACHING_PLAN.md    # 课程目标、教学脚本、评价与内容生产
 │  ├─ DEVELOPMENT.md      # 当前约定与人工验收
 │  └─ adr/                # 预留：架构决策记录
 ├─ .github/
@@ -85,6 +86,7 @@ Three.js 初始打包体积仍较大，当前构建会提示 chunk 超过 500 kB
 按规划预先建立完整目录结构，并用简短 README 说明职责、依赖边界和后续文件示例，使 Git 能保留尚无代码的目录。标为“预留”的模块与测试套件尚未实现；现有代码保持不动，后续按教学目标逐步填充。只有出现独立复用或发布需求时再拆 packages。
 
 - [技术方案](docs/TECHNICAL_PLAN.md)：教学架构、开发约束与项目管理建议
+- [教学方案](docs/TEACHING_PLAN.md)：课程目标、分课脚本、交互反馈、学习评价与实施路线
 - [开发说明](docs/DEVELOPMENT.md)：当前约定与人工验收步骤
 - [贡献指南](CONTRIBUTING.md)：Issue、PR、分层约束与验证要求
 - [架构决策记录](docs/adr/README.md)：关键选型和契约变更的记录约定
